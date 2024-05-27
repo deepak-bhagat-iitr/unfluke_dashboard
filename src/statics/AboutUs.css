@@ -1,0 +1,92 @@
+/* AboutUs.css */
+
+.about-us-container {
+  text-align: center;
+  max-width: 1000px;
+  background-color: #ffffff;
+  padding: 40px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-us-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-us-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-us-text:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .about-us-container {
+    max-width: 900px;
+    padding: 30px;
+  }
+
+  .about-us-title {
+    font-size: 32px;
+  }
+
+  .about-us-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-us-container {
+    max-width: 750px;
+    padding: 25px;
+  }
+
+  .about-us-title {
+    font-size: 28px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-container {
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  .about-us-title {
+    font-size: 24px;
+  }
+
+  .about-us-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .about-us-title {
+    font-size: 20px;
+  }
+
+  .about-us-text {
+    font-size: 14px;
+  }
+}
